@@ -11,8 +11,8 @@ public class MemberTest {
     public void testLoan() throws Exception {
 
         Member member = new Member();
-        member.setId(3578);
-        member.setName("gaolongtian");
+        member.setId(2708);
+        member.setName("lifengyan");
 
         Book searchBook = new Book();
         searchBook.setId(4);
@@ -63,8 +63,8 @@ public class MemberTest {
     @Test
     public void testReturnBook() throws Exception {
         Member member = new Member();
-        member.setId(3578);
-        member.setName("gaolongtian");
+        member.setId(2708);
+        member.setName("lifengyan");
 
         Book returnBook = new Book();
         returnBook.setId(3);
